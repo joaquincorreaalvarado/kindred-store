@@ -1,0 +1,134 @@
+[
+{
+    "id": 1,
+    "console": "Playstation 4",
+    "category": "games",
+    "name": "Horizon Forbidden West",
+    "image": "https://electronicthings.com.ar/img/Public/1066-producto-horizon-forbidden-west-3488.jpg",
+    "price": 10500,
+    "stock": 8,
+    "detail": "Únete a Aloy mientras desafía el Oeste Prohibido, una frontera majestuosa, aunque peligrosa, en la que se ocultan nuevas y misteriosas amenazas."
+},
+
+{
+    "id": 2,
+    "console": "Playstation 4",
+    "category": "games",
+    "name": "Elden Ring",
+    "image": "../images/EldenRing.jpg",
+    "price": 11000,
+    "stock": 3,
+    "detail": "La Orden Dorada se ha roto."
+},
+
+{
+    "id": 3,
+    "console": "Playstation 4",
+    "category": "games",
+    "name": "Resident Evil Village",
+    "image": "../images/Re8.jpg",
+    "price": 12000,
+    "stock": 5,
+    "detail": "Vive el survival horror como nunca antes en la 8.ª entrega principal de la aclamada serie Resident Evil: Resident Evil Village."
+},
+
+{
+    "id": 4,
+    "console": "Playstation 4",
+    "category": "games",
+    "name": "Nier Replicant Ver 1.22474487139",
+    "image": "../images/Nier.jpg",
+    "price": 13000,
+    "stock": 11,
+    "detail": "NieR Replicant ver.1.22474487139... es una versión actualizada de NieR Replicant."
+},
+
+{
+    "id": 5,
+    "console": "Playstation 5",
+    "category": "games",
+    "name": "Gran Turismo 7",
+    "image": "../images/GranTurismo.jpg",
+    "price": 11500,
+    "stock": 6,
+    "detail": "Gran Turismo 7 cuenta con 22 años de experiencia para ofrecerte las mejores características de la historia de la franquicia."
+},
+
+{
+    "id": 6,
+    "console": "Playstation 5",
+    "category": "games",
+    "name": "Dying Light 2",
+    "image": "../images/DyingLight2.jpg",
+    "price": 11000,
+    "stock": 7,
+    "detail": "En Dying Light 2, la supervivencia se une a las aventuras de acción mientras tratas de resistir a un mundo hostil postapocalíptico"
+},
+
+{
+    "id": 7,
+    "console": "Playstation 5",
+    "category": "games",
+    "name": "Hogwarts Legacy",
+    "image": "../images/HarryPotter.jpg",
+    "price": 12000,
+    "stock": 3,
+    "detail": "Hogwarts Legacy es un RPG de acción en un mundo abierto ambientado en el universo de los libros de Harry Potter. Por primera vez, disfruta de Hogwarts en el siglo XIX."
+},
+
+{
+    "id": 8,
+    "console": "Playstation 5",
+    "category": "games",
+    "name": "Returnal",
+    "image": "../images/Returnal.jpg",
+    "price": 15000,
+    "stock": 5,
+    "detail": "Rompe el ciclo del caos en un planeta alienígena donde todo cambia constantemente"
+},
+
+{
+    "id": 9,
+    "console": "Switch",
+    "category": "games",
+    "name": "Luigi Mansion 3",
+    "image": "../images/LuigiMansion3.jpg",
+    "price": 13500,
+    "stock": 9,
+    "detail": "Luigi's Mansion 3 es la tercera parte de una saga de aventura, acción y survival horror protagonizada por Luigi, el famoso fontanero hermano de Mario."
+},
+
+{
+    "id": 10,
+    "console": "Switch",
+    "category": "games",
+    "name": "Pokemon Arceus",
+    "image": "../images/PokemonArceus.jpg",
+    "price": 12000,
+    "stock": 10,
+    "detail": "Visita el Sinnoh de hace muchos años para capturar e investigar sus Pokémon salvajes y crear la primera Pokédex de la región."
+},
+
+{
+    "id": 11,
+    "console": "Switch",
+    "category": "games",
+    "name": "Mario Kart 8 Deluxe",
+    "image": "../images/SuperMario.jpg",
+    "price": 14000,
+    "stock": 7,
+    "detail": "Calienta motores en la versión definitiva de Mario Kart™ 8 y juega donde y cuando quieras!"
+},
+
+{
+    "id": 12,
+    "console": "Switch",
+    "category": "games",
+    "name": "Mario Party Superstars",
+    "image": "../images/MarioParty.jpg",
+    "price": 16000,
+    "stock": 8,
+    "detail": "Únete a la diversión con una colección superestrella de tableros y minijuegos clásicos en el juego Mario Party™ Superstars."
+}
+
+]

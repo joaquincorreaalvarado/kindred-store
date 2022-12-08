@@ -49,3 +49,65 @@ header nav {
   font-family: "Bangers";
   font-size: 20px;
 }
+
+.cardButton {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardButton:hover {
+  opacity: 0.6;
+}
+
+.cardSize {
+  transition: transform 0.5s;
+  height: 440px;
+  margin: 12px;
+  outline: none;
+  box-sizing: border-box;
+  width: 240px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.gamesImage {
+  height: 220px;
+  width: 200px;
+  padding: 12px;
+  margin: 12px;
+}
+
+.gamesList {
+  font-size: 18px;
+  font-style: normal;
+}
+
+.ps4Flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.gamesDetail{
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.itemCount{
+  position: relative;
+  bottom: -70px;
+  right: 20px;
+}
+
+.consoleGame {
+  width: 50%;
+  font-size: 22px;
+}
