@@ -15,7 +15,7 @@
     "console": "Playstation 4",
     "category": "games",
     "name": "Elden Ring",
-    "image": "../images/EldenRing.jpg",
+    "image": "https://www.cdmarket.com.ar/Image/0/600_750-ER_PS4_2D_NSP_resize.jpg",
     "price": 11000,
     "stock": 3,
     "detail": "La Orden Dorada se ha roto."
@@ -26,7 +26,7 @@
     "console": "Playstation 4",
     "category": "games",
     "name": "Resident Evil Village",
-    "image": "../images/Re8.jpg",
+    "image": "https://gorilagames.com/img/Public/1019-producto-resident-evil-8-viii-ps4-2604.jpg",
     "price": 12000,
     "stock": 5,
     "detail": "Vive el survival horror como nunca antes en la 8.ª entrega principal de la aclamada serie Resident Evil: Resident Evil Village."
@@ -37,7 +37,7 @@
     "console": "Playstation 4",
     "category": "games",
     "name": "Nier Replicant",
-    "image": "../images/Nier.jpg",
+    "image": "https://media.vandal.net/m/83494/nier-replicant-ver122474487139-202131916503475_1.jpg",
     "price": 13000,
     "stock": 11,
     "detail": "NieR Replicant ver.1.22474487139... es una versión actualizada de NieR Replicant."
@@ -48,7 +48,7 @@
     "console": "Playstation 5",
     "category": "games",
     "name": "Gran Turismo 7",
-    "image": "../images/GranTurismo.jpg",
+    "image": "https://media.vandal.net/i/200x254/86452/gran-turismo-7-202011241441619_1.jpg",
     "price": 11500,
     "stock": 6,
     "detail": "Gran Turismo 7 cuenta con 22 años de experiencia para ofrecerte las mejores características de la historia de la franquicia."
@@ -59,7 +59,7 @@
     "console": "Playstation 5",
     "category": "games",
     "name": "Dying Light 2",
-    "image": "../images/DyingLight2.jpg",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_644223-MLA51735348484_092022-O.webp",
     "price": 11000,
     "stock": 7,
     "detail": "En Dying Light 2, la supervivencia se une a las aventuras de acción mientras tratas de resistir a un mundo hostil postapocalíptico"
@@ -70,7 +70,7 @@
     "console": "Playstation 5",
     "category": "games",
     "name": "Hogwarts Legacy",
-    "image": "../images/HarryPotter.jpg",
+    "image": "https://media.vandal.net/m/90452/hogwarts-legacy-202011241472464_1.jpg",
     "price": 12000,
     "stock": 3,
     "detail": "Hogwarts Legacy es un RPG de acción en un mundo abierto ambientado en el universo de los libros de Harry Potter. Por primera vez, disfruta de Hogwarts en el siglo XIX."
@@ -81,7 +81,7 @@
     "console": "Playstation 5",
     "category": "games",
     "name": "Returnal",
-    "image": "../images/Returnal.jpg",
+    "image": "https://media.vandal.net/m/86445/returnal-202011241464441_1.jpg",
     "price": 15000,
     "stock": 5,
     "detail": "Rompe el ciclo del caos en un planeta alienígena donde todo cambia constantemente"
@@ -92,7 +92,7 @@
     "console": "Switch",
     "category": "games",
     "name": "Luigi Mansion 3",
-    "image": "../images/LuigiMansion3.jpg",
+    "image": "https://www.vidrieraonline.com.ar/img-load/img/600/0/0/1f36c15d6a3d18d52e8d493bc8187cb9.jpg",
     "price": 13500,
     "stock": 9,
     "detail": "Luigi's Mansion 3 es la tercera parte de una saga de aventura, acción y survival horror protagonizada por Luigi, el famoso fontanero hermano de Mario."
@@ -103,7 +103,7 @@
     "console": "Switch",
     "category": "games",
     "name": "Pokemon Arceus",
-    "image": "../images/PokemonArceus.jpg",
+    "image": "https://www.vidrieraonline.com.ar/img-load/img/600/0/0/665d34fa9023d57004aa39c9b9e316ae.jpg",
     "price": 12000,
     "stock": 10,
     "detail": "Visita el Sinnoh de hace muchos años para capturar e investigar sus Pokémon salvajes y crear la primera Pokédex de la región."
@@ -114,7 +114,7 @@
     "console": "Switch",
     "category": "games",
     "name": "Mario Kart 8 Deluxe",
-    "image": "../images/SuperMario.jpg",
+    "image": "https://gorilagames.com/img/Public/1019-producto-mario-kart-8-8327.jpg",
     "price": 14000,
     "stock": 7,
     "detail": "Calienta motores en la versión definitiva de Mario Kart™ 8 y juega donde y cuando quieras!"
@@ -125,7 +125,7 @@
     "console": "Switch",
     "category": "games",
     "name": "Mario Party Superstars",
-    "image": "../images/MarioParty.jpg",
+    "image": "https://www.ubuy.com.ar/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvOTFMcU5ya202Y0wuX1NMMTUwMF8uanBn.jpg",
     "price": 16000,
     "stock": 8,
     "detail": "Únete a la diversión con una colección superestrella de tableros y minijuegos clásicos en el juego Mario Party™ Superstars."

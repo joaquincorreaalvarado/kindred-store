@@ -15,7 +15,7 @@ const Item = ({item}) => {
                             <p className="card-text gamesList">{item.name}</p>
                             <p className="card-text gamesList">Precio: ${item.price}</p>
                         <div>
-                            <button  className="cardButton">Agregar</button>
+                            <button  className="cardButton">Ir al Producto</button>
                         </div>    
                         </div>
                     </div>

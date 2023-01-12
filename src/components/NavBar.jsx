@@ -26,16 +26,6 @@ const NavBar = () => {
                   <li className="nav-item">
                     <NavLink className="nav-link" activeclassname="page" to={"/category/Switch"}>switch</NavLink>
                   </li>
-                  {/* <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="." role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Categorías
-                    </a> */}
-                    {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a className="dropdown-item" href="/playstation4">Playstation 4</a></li>
-                      <li><a className="dropdown-item" href="/playstation5">Playstation 5</a></li>
-                      <li><a className="dropdown-item" href="/switch">Switch</a></li>
-                    </ul> */}
-                  {/* </li> */}
                   <li className="nav-item">
                     <NavLink className="nav-link" activeclassname="page" to={"/category/contacto"}>Contacto</NavLink>
                   </li>
@@ -51,6 +41,8 @@ const NavBar = () => {
             </div>
           </nav>
 
+            <br />
+             <br />
 
       </header>
       

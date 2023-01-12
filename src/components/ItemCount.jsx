@@ -1,11 +1,14 @@
-import React, {useState} from "react";
-import { ToastContainer, toast } from 'react-toastify';
+import React, {useEffect, useState} from "react";
 import 'react-toastify/dist/ReactToastify.css';
+import { Link } from "react-router-dom";
 
 
-const ItemCount = ({stock}) => {
+
+const ItemCount = ({stock, onAdd}) => {
 
     const [counter, setCounter] = useState(1);
+    const [itemStock, setItemStock] = useState(stock);
+    const [sold, SetSold] = useState (false)
 
    const decreaseStock = () => {
         if (counter > 1) 
@@ -14,27 +17,25 @@ const ItemCount = ({stock}) => {
     }
 
     const  increaseStock = () => {
-        if (counter < stock) {
+        if (counter < itemStock) {
         setCounter(counter + 1);
         }
     }
 
-    const onAdd = () => {
-        if(stock > 0) {
-            toast.success("Agregaste " + counter + " productos al carrito", {
-                position: "top-center",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
-                });
+const addCart = (quantity) => {
+    if (counter <= itemStock){
+        setCounter(1)
+        setItemStock (itemStock - quantity)
+        SetSold (true)
+        onAdd(quantity);
 
-         }
+    }
+}
 
-        }
+useEffect(() =>{
+    setItemStock(stock)
+},[stock])
+
 
 return(
 
@@ -44,7 +45,7 @@ return(
                 <button type="button" className="btn btn-outline-secondary" onClick={decreaseStock}>-</button>
                 <button type="button" className="btn">{counter}</button>
                 <button type="button" className="btn btn-outline-secondary" onClick={increaseStock}>+</button>
-                <button type="button" className="cardButton" onClick={onAdd}>Agregar</button> <ToastContainer />
+                {sold ? <Link to={"/cart"} style={{ textDecoration: 'none' }} className="cardButton text-white">Finalizar Compra</Link> : <button type="button" className="cardButton" onClick={() =>{addCart(counter)}}>Agregar</button>} 
             </div>
 
         </div>
