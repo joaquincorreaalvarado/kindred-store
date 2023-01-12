@@ -34,7 +34,7 @@ const Cart = () => {
           </div>
           <div className="modal-body">
               <div className="container">
-                  <table className="table table-sm">
+                  <table className="table table-sm ">
                       <thead className="table-dark" >
                           <tr>
                             <th scope="col">Imagen</th>  
