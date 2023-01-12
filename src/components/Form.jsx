@@ -133,12 +133,14 @@ return(
         <h4 className="mb-3 d-flex justify-content-between align-items-center">
           <span className="text-muted price">Tu Carrito</span>
         </h4>
+        
         <table className="table">
         <tbody>
                         {cart.map(item => (
-                            <div className="spaceTable" >
+                            <div className="spaceTable list-group" >
+                                
                             <tr key={item.id} d-flex >
-                                <td><img src={item.image} alt={item.name} width={70} /></td>
+                                <td><img src={item.image} alt={item.name} width={60} /></td>
                                 <td className="align-middle">{item.name}</td>
                                 <td className="align-middle" >{item.quantity}</td>
                                 <td className="align-middle">${item.quantity *item.price}</td>
@@ -146,6 +148,7 @@ return(
                             </div>
                         ))}
                         <br />
+                        
 
                         <tr>
                       <td className="subTotal text-start">Subtotal ${cartFinal()}</td>
@@ -157,7 +160,7 @@ return(
                       </tbody>
                       <tfoot>
                         <tr>
-                      <th scope="row" colSpan={15} className="totalBuy text-start">Total: ${cartFinal()+1000}</th>
+                      <th scope="row" colSpan={15} className="totalBuy text-start ">Total: ${cartFinal()+1000}</th>
                         </tr>       
                       </tfoot>
                       </table>
