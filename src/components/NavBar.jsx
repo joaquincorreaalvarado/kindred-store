@@ -26,9 +26,6 @@ const NavBar = () => {
                   <li className="nav-item">
                     <NavLink className="nav-link" activeclassname="page" to={"/category/Switch"}>switch</NavLink>
                   </li>
-                  <li className="nav-item">
-                    <NavLink className="nav-link" activeclassname="page" to={"/category/contacto"}>Contacto</NavLink>
-                  </li>
                 </ul>
                 <form className="d-flex">
                 <input className="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"></input>

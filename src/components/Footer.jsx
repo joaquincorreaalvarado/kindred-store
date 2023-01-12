@@ -37,9 +37,6 @@ const Footer = () => {
             <li>
               <h5>Lunes a Sábado de 10 a 18hs</h5>
             </li>
-            <li>
-              <h5>Por consultas o reclamos ir a contacto</h5>
-            </li>
           </ul>
         </div> 
         

@@ -133,7 +133,7 @@ return(
         <h4 className="mb-3 d-flex justify-content-between align-items-center">
           <span className="text-muted price">Tu Carrito</span>
         </h4>
-        <table >
+        <table className="table">
         <tbody>
                         {cart.map(item => (
                             <div className="spaceTable" >
@@ -155,7 +155,6 @@ return(
                         </tr>     
                           
                       </tbody>
-                      <br />
                       <tfoot>
                         <tr>
                       <th scope="row" colSpan={15} className="totalBuy text-start">Total: ${cartFinal()+1000}</th>
