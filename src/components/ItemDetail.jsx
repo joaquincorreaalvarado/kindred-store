@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect , useState  } from "react";
 import ItemCount from "./ItemCount";
 import {CartContext} from "./context/cartContext";
 

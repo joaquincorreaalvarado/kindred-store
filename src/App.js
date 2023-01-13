@@ -8,6 +8,7 @@ import CartContextProvider from "./components/context/cartContext";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
+import Thanks from "./components/Thanks";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
           <Route path={"/cart"} element={<Cart />} />
           <Route path={"/form"} element={<Form />} />
+          <Route path={"/gracias/:id"} element={<Thanks />} />
           <Route path={"*"} element={<Error404 />} />
         </Routes>
         <Footer />

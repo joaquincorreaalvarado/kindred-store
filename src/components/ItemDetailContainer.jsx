@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import Loading from "./Loading";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { doc, getDoc, getFirestore } from "firebase/firestore";
@@ -9,6 +10,7 @@ import { doc, getDoc, getFirestore } from "firebase/firestore";
 const ItemDetailContainer= () => {
 
     const [item, SetItem] = useState([]);
+    const [loading, setLoading] = useState(true)
     const {id} = useParams();
 
     useEffect(() => {
@@ -17,6 +19,7 @@ const ItemDetailContainer= () => {
         getDoc(item).then((kindredProducts) => {
             if (kindredProducts.exists()) {
                 SetItem({id:kindredProducts.id, ...kindredProducts.data()});
+                setLoading(false)
             } else {
             }
         });
@@ -24,7 +27,7 @@ const ItemDetailContainer= () => {
 
     return(
         <div className="container">
-        <ItemDetail item={item} />
+        {loading ? <Loading /> : <ItemDetail item={item} />}
         </div>
     )
 

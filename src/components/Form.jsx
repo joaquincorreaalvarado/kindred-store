@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import { useState } from "react";
+import { Navigate } from "react-router-dom";
 import { CartContext } from "./context/cartContext";
 import { addDoc, doc, collection, getFirestore, updateDoc } from "firebase/firestore";
 
@@ -84,25 +85,25 @@ return(
                 <div className="row">
                     <div className="col-12 col-sm-6 mb-3">
                     <label >Provincia</label>
-                    <input type="text" className="form-control form__input"  name="province" required placeholder="Ingrese la Provincia" onInput={(e) => {setProvince(e.target.value)}}></input>
+                    <input type="text" className="form-control form__input"  name="province" required placeholder="Ingrese la Provincia" onInput={(e) => {setProvince(e.target.value)}}/>
                     </div>
 
                     <div className="col-12 col-sm-6 mb-3">
                         <label>Ciudad</label>
-                        <input type="text" className="form-control form__input"  name="city" required placeholder="Ingrese la Ciudad" onInput={(e) => {setCity(e.target.value)}}></input>
+                        <input type="text" className="form-control form__input"  name="city" required placeholder="Ingrese la Ciudad" onInput={(e) => {setCity(e.target.value)}}/>
                     </div>
 
                 </div>
 
             <div className="mb-3" >
                 <label>Domicilio Completo</label>
-                <input type="text" className="form-control form__input"  name="adress" required placeholder="Ingrese el Domicilio Completo" onInput={(e) => {setAdress(e.target.value)}}></input>
+                <input type="text" className="form-control form__input"  name="adress" required placeholder="Ingrese el Domicilio Completo" onInput={(e) => {setAdress(e.target.value)}}/>
             </div>
     
 
                 <div className="col-12 col-sm-4 mb-3" >
                 <label>Codigo Postal</label>
-                <input type="text" className="form-control form__input"  name="code" required placeholder="Ingrese el Código postal" onInput={(e) => {setCode(e.target.value)}}></input>
+                <input type="text" className="form-control form__input"  name="code" required placeholder="Ingrese el Código postal" onInput={(e) => {setCode(e.target.value)}}/>
                 </div>
             </div>
     
@@ -139,7 +140,7 @@ return(
                         {cart.map(item => (
                             <div className="spaceTable list-group" >
                                 
-                            <tr key={item.id} d-flex >
+                            <tr key={item.id} >
                                 <td><img src={item.image} alt={item.name} width={60} /></td>
                                 <td className="align-middle">{item.name}</td>
                                 <td className="align-middle" >{item.quantity}</td>
@@ -147,20 +148,12 @@ return(
                             </tr>
                             </div>
                         ))}
-                        <br />
                         
-
-                        <tr>
-                      <td className="subTotal text-start">Subtotal ${cartFinal()}</td>
-                        </tr>
-                        <tr>
-                      <td  className="shipping text-start">Envío ${1000}</td>
-                        </tr>     
                           
                       </tbody>
                       <tfoot>
                         <tr>
-                      <th scope="row" colSpan={15} className="totalBuy text-start ">Total: ${cartFinal()+1000}</th>
+                      <th scope="row" colSpan={15} className="totalBuy text-start ">Total: ${cartFinal()}</th>
                         </tr>       
                       </tfoot>
                       </table>
@@ -168,7 +161,7 @@ return(
         </div>
         <div className="row">
                 <div className="col text-center">
-                    {orderId !== "" ?  <div className="alert alert-warning" role="alert">La Orden generada es: <b>{orderId}</b></div> : ""}
+                {orderId !== "" ? <Navigate to={"/gracias/" + orderId}/> : ""}
                 </div>
             </div>
   </form>     
