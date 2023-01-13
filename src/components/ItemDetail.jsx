@@ -28,11 +28,11 @@ useEffect(() => {
             <img src={item.image} alt={item.name} className="img-fluid" width="400" />
         </div>
         <div className="col-md-5">
-            <span className="gamesDetail">{item.name}</span>
-            <span className="consoleGame">{item.console}</span>
-            <span>{item.detail}</span>
-            <span><b>Precio: ${item.price}</b></span>
-            <span className="itemCount"><ItemCount stock={item.stock} onAdd={onAdd}/></span>
+            <p className="gamesDetail">{item.name}</p>
+            <p className="consoleGame">{item.console}</p>
+            <p>{item.detail}</p>
+            <p><b>Precio: ${item.price}</b></p>
+            <p className="itemCount"><ItemCount stock={item.stock} onAdd={onAdd}/></p>
         </div>
     </div>
     )
