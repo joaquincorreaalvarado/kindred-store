@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";

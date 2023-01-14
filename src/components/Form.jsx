@@ -1,5 +1,4 @@
-import React, {useContext} from "react";
-import { useState } from "react";
+import React, {useContext, useState} from "react";
 import { Navigate } from "react-router-dom";
 import { CartContext } from "./context/cartContext";
 import { addDoc, doc, collection, getFirestore, updateDoc } from "firebase/firestore";
@@ -122,7 +121,7 @@ return(
                         </div>
 
                 <div>
-                    <button type="submit"  className="cardButton" onClick={generateOrder}>confirmar pedido</button>
+                    <button type="button"  className="cardButton" onClick={generateOrder}>confirmar pedido</button>
                 </div>
             </div>
              
