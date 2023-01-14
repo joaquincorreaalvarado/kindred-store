@@ -24,7 +24,7 @@ const NavBar = () => {
                     <NavLink className="nav-link" activeclassname="page" to={"/category/Playstation 5"}>Playstation 5</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" activeclassname="page" to={"/category/switch"}>Switch</NavLink>
+                    <NavLink className="nav-link" activeclassname="page" to={"/category/Switch"}>Switch</NavLink>
                   </li>
                 </ul>
                 <form className="d-flex">
